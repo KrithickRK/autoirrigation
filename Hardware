@@ -1,0 +1,3 @@
+Tensiometer: Measures soil moisture and provides an analog output.
+Water Pump: Controlled via a relay module.
+Microcontroller:an Arduino.
