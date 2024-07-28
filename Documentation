@@ -18,6 +18,18 @@ This document provides a guide on how to set up and use the auto irrigation syst
 3. Upload the firmware to the microcontroller.
 4. Run the IoT integration script to monitor system status.
 
+## Troubleshooting
+
+- **Pump Not Turning On:**
+  - Verify that the relay module is correctly wired and functioning.
+  - Ensure the power supply to the water pump is adequate.
+
+- **Inconsistent Soil Moisture Readings:**
+  - Check the calibration of the tensiometer and ensure it is properly installed in the soil.
+
+- **Serial Monitor Not Displaying Data:**
+  - Confirm that the correct baud rate (9600) is selected in the Serial Monitor.
+
 ## Usage
 
 The system will automatically turn on the irrigation when the soil moisture level drops below 30%. You can monitor and control the system via the IoT platform.
