@@ -1,0 +1,23 @@
+# User Manual
+
+## Overview
+
+This document provides a guide on how to set up and use the auto irrigation system.
+
+## Components
+
+1. Tensiometer
+2. Relay module
+3. Arduino (or compatible microcontroller)
+4. IoT platform for monitoring
+
+## Setup Instructions
+
+1. Connect the tensiometer to the analog pin A0.
+2. Connect the relay module to digital pin 7.
+3. Upload the firmware to the microcontroller.
+4. Run the IoT integration script to monitor system status.
+
+## Usage
+
+The system will automatically turn on the irrigation when the soil moisture level drops below 30%. You can monitor and control the system via the IoT platform.
