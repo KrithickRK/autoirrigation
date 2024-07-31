@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Define pins and constants
-#define TENSIOMETER_PIN 0 // Analog pin A0 (change according to your setup)
+#define TENSIOMETER_PIN 0 
 #define PUMP_PIN 2        // Digital pin 2 (change according to your setup)
 #define MOISTURE_THRESHOLD 500 // Threshold value (adjust based on calibration)
 
